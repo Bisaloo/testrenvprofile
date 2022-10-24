@@ -20,7 +20,7 @@ jobs:
         with:
           use-public-rspm: true
 
-      - uses: Bisaloo/actions/setup-renv@v2
+      - uses: Bisaloo/actions/setup-renv@renv-profile
         with:
           profile: shiny
 
