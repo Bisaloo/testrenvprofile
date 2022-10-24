@@ -22,6 +22,6 @@ jobs:
 
       - uses: Bisaloo/actions/setup-renv@renv-profile
         with:
-          profile: 'shiny'
+          profile: "'shiny'"
 
       - run: Rscript -e 'installed.packages()'
