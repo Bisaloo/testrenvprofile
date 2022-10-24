@@ -21,7 +21,5 @@ jobs:
           use-public-rspm: true
 
       - uses: Bisaloo/actions/setup-renv@renv-profile
-        with:
-          profile: "'shiny'"
 
       - run: Rscript -e 'installed.packages()'
